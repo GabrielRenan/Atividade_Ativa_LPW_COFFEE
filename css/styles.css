@@ -15,7 +15,7 @@ header {
 
 header .logo {
     width: 100px; /* Ajuste o tamanho conforme necessário */
-    height: auto;
+    height: 100px;
     margin-right: 1em; /* Espaço entre a logo e o menu de navegação */
 
 }
