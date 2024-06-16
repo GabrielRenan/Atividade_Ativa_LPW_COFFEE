@@ -9,23 +9,22 @@ header {
     background-color: #6b4f4f;
     padding: 1em;
     color: white;
-    text-align: center;
     display: flex;
-    flex-direction: column;
     align-items: center;
 }
 
 header .logo {
-    max-width: 150px;
-    margin-bottom: 1em;
+    width: 50px; /* Ajuste o tamanho conforme necessário */
+    height: auto;
+    margin-right: 1em; /* Espaço entre a logo e o menu de navegação */
 }
 
 nav ul {
     list-style-type: none;
     padding: 0;
     display: flex;
-    justify-content: center;
     gap: 1em;
+    margin: 0;
 }
 
 nav ul li {
@@ -87,14 +86,8 @@ form button:hover {
     background-color: #5a3f3f;
 }
 
-.video-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.gif-section {
+    text-align: center; /* Centraliza o GIF na página */
     margin: 2em 0;
 }
 
-.video-section video, .video-section iframe {
-    max-width: 100%;
-    height: auto;
-}
