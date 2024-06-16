@@ -14,15 +14,10 @@ header {
 }
 
 header .logo {
-<<<<<<< HEAD
-    width: 50px; /* Ajuste o tamanho conforme necessário */
+    width: 100px; /* Ajuste o tamanho conforme necessário */
     height: auto;
     margin-right: 1em; /* Espaço entre a logo e o menu de navegação */
-=======
-    width: 20px;
-    height: 20px;
-    margin-bottom: 1em;
->>>>>>> 82db3a71fcecc84e7f5de7b631ae959c731a386e
+
 }
 
 nav ul {
